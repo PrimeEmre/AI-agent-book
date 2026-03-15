@@ -13,7 +13,7 @@ app = Flask(__name__, static_folder='static')
 app.secret_key = "emre_ai_secret_123"
 
 # ── Configuration ──────────────────────────────────────────────
-GOOGLE_TTS_KEY = "AIzaSyC_Ejdd3OEEe_84I96z-uLxK5iljFcyjvE"  # ← paste privately in PyCharm
+GOOGLE_TTS_KEY = "your api key"  # ← paste privately in PyCharm
 GOOGLE_TTS_URL = f"https://texttospeech.googleapis.com/v1/text:synthesize?key={GOOGLE_TTS_KEY}"
 
 OLLAMA_URL = "http://localhost:11434/api/chat"
